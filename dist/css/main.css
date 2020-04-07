@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+}
+
+.l-grid {
+	margin: 0 auto;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.c-header {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+}
+
+.c-header__logo {
+	margin: 10px;
+	position: absolute;
+}
+
+.c-header__links {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
+
+.c-header__link {
+	margin: 10px;
+}

@@ -1,0 +1,64 @@
+{
+    "name": "mrpaulphan",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "webpack --mode development --watch ",
+        "build": "webpack --mode production"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mrpaulphan/mrpaulphan.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mrpaulphan/mrpaulphan/issues"
+    },
+    "homepage": "https://github.com/mrpaulphan/mrpaulphan#readme",
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "ie 11"
+    ],
+    "dependencies": {
+        "axios": "^0.17.0",
+        "blazy": "^1.8.2",
+        "browserslist": "^4.6.3",
+        "es6-promise": "^4.2.2",
+        "global": "^4.3.2",
+        "include-media": "^1.4.8",
+        "jquery": "^3.1.0",
+        "magnific-popup": "^1.1.0",
+        "normalize.css": "^5.0.0",
+        "pdfkit": "^0.8.3",
+        "rev-del": "^1.0.5",
+        "slick-carousel": "^1.8.1",
+        "waypoints": "^4.0.1"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.4.5",
+        "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+        "@babel/preset-env": "^7.4.5",
+        "acorn": "^6.1.1",
+        "autoprefixer": "^9.6.0",
+        "babel-loader": "^8.0.6",
+        "browser-sync": "^2.26.7",
+        "browser-sync-webpack-plugin": "^2.2.2",
+        "bundle-loader": "^0.5.6",
+        "clean-webpack-plugin": "^3.0.0",
+        "css-loader": "^3.0.0",
+        "mini-css-extract-plugin": "^0.7.0",
+        "node-sass": "^4.12.0",
+        "postcss-loader": "^3.0.0",
+        "sass-loader": "^7.1.0",
+        "twig": "^1.10.5",
+        "twig-loader": "^0.3.1",
+        "uglifyjs-webpack-plugin": "^2.1.3",
+        "url-loader": "^2.0.0",
+        "webpack": "^4.33.0",
+        "webpack-cli": "^3.3.4",
+        "webpack-dev-server": "^3.7.1"
+    }
+}
